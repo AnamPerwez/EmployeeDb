@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employeee DB </title>
+<link rel="stylesheet" href="/style.css" type="text/css">
+</head>
+<body>
+
+<h1>Employee Database</h1>
+<div class="left">
+<form action="/signup" method="POST">
+<fieldset>
+<legend>Signup
+</legend>
+<div class="error_display">
+<ul>
+<% if(messages!=null){%>
+  <% for(var i=0;i<messages.length;i++){ %>
+  <li><%= messages[i] %></li>
+  <% } %>
+<%} %>
+</ul>
+</div>
+<dl>
+  <dt><label>
+    <span>Email</span> </label></dt>
+    <dd><input
+      type="email"
+      name="email"
+      placeholder="Email"></dd>
+ <dt>
+   <label>
+    <span>Password</span> </label></dt>
+    <dd><input
+      type="password"
+      name="password"
+      ></dd>
+   <dt>
+   <label>
+    <span>Confirm Password</span> </label></dt>
+    <dd><input
+      type="password"
+      name="confirm_password"
+      ></dd>    
+
+ 
+  
+   
+ <dd> <button type="submit" class="btn" >SIGN UP</button></dd>
+  </dl>
+</fieldset>
+</form>
+</div>
+<div class="right">
+<form method="POST" action="/login">
+<fieldset>
+<legend>Login
+</legend>
+<dl>
+  <dt><label>
+    <span>Email</span> </label></dt>
+    <dd><input
+      type="email"
+      name="email"
+      placeholder="Email"></dd>
+ <dt>
+   <label>
+    <span>Password</span> </label></dt>
+    <dd><input
+      type="password"
+      name="password"
+      ></dd>
+      <dd> <button type="submit" class="btn" >Login</button></dd>
+  </dl>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

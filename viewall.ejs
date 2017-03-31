@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/style.css" type="text/css">
+</head>
+<body>
+<% include partials/home.ejs %>
+<% for(var i=0;i<data.length;i++){ %>
+<div class="w3-panel ">
+ <ul>
+  <li>ID:<%= data[i]._id %></li>
+ <li>Name:<%= data[i].name %></li>
+  <li>Age:<%= data[i].age %></li>
+ </ul> 
+  
+</div> 
+<% } %>
+</body>
+</html>

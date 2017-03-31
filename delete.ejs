@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/style.css" type="text/css">
+</head>
+<body>
+<%include partials/home.ejs %>
+<form  method="POST" action='/delete'>
+<label>
+    <span>ID</span>
+    <input
+      type="text"
+      name="id"
+      placeholder="ID">
+  </label>
+  <label>
+    <span>Full name</span>
+    <input
+      type="text"
+      name="name"
+      placeholder="Your full name">
+  </label>
+  
+   
+  <button type="submit"  >delete employee</button>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<% include partials/home.ejs %>
+<form method="POST" action='/add'>
+<fieldset>
+<legend>Employee Information
+</legend>
+<dl>
+  <dt><label>
+    <span>Full name</span> </label></dt>
+    <dd><input
+      type="text"
+      name="name"
+      placeholder="Your full name"></dd>
+ <dt>
+   <label>
+    <span>age</span> </label></dt>
+    <dd><input
+      type="text"
+      name="age"
+      placeholder="age"></dd>
+ 
+  
+   
+ <dd> <button type="submit" class="btn" >add employee</button></dd>
+  </dl>
+</fieldset>
+</form>

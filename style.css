@@ -1,0 +1,31 @@
+body{
+    background-color:darkolivegreen;
+}
+h1{
+    text-align: center;
+}
+.w3-panel{
+    background-color: white;
+    color:lightslategray;
+}
+div nav {
+    text-align: right;
+    height:40px;
+    margin:0px;
+    background-color:lightgreen;
+    
+}
+div nav a{
+    padding-top: 10px;
+    color:darkolivegreen;
+}
+.btn{
+    margin-top:10px;
+}
+.error_display{
+    background-color: red;
+    color:white;
+}
+li{
+    list-style-type: none;
+}
