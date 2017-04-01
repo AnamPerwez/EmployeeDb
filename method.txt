@@ -1,0 +1,13 @@
+INSTALL packages
+Sab sy phly tu hm ek appjs ki file bnayngy
+Usky bd npm init krngy js sy package.json bnyga is mn entry point bhi app.js jaega hmra
+Usky bd hm nodemon express ejs body-parser r express validator  install krngy r mongoose bhi install krngy
+MVC
+Acha hm is mn MVC ka strcture follow kr rhy hyn therefore hmra controller yhn pr binding provide kryga view r data ki rek sy ziada cntrllr hskty hyn pr mn flhal ek sy  I km krng
+Model mn data hta h view mn ejs ki file hti hyndata hmra items example todo ya userDB mn users
+APP.JS
+Acha phr hm apny entry point mn yni app.js mn express require krngy r view engine ejs ko set krngy r express.static sy static files ka folder btayngy r usi mn hm bodyparser ka code urlencode parser wla chalayngy r hm is mn apna controller require krngy r app.listen krngy
+USERCONTROLLER
+Yhn hm apny mongoose ko require krayngy qk who use yhn I hga hm apny express validator ko yhn require krayngy r apny function jo js mn sari requests hngi yhn sy export krarhy hngy hm mongoose.Promise ko global.Promide set krngy qk promise ka msla dyta h woh acha hmm lab p jkr databse create krky apna collection ka naam rkhngy r user add krngy r uska connection string lkr yhn mongoose.connect mn put krngy
+Apny expreevalidator ko use krngy
+Baqi whi mthds hyn tu code sy dkhlo baqi 
